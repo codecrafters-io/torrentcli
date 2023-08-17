@@ -14,9 +14,11 @@ It also exposes some other lower-level commands to deal with `.torrent` files.
 
 ## List of commands
 
-### `torrentcli decode <bencoded_string>`
+### decode
 
 Decodes a bencoded string and prints it as JSON
+
+**Interface**: `torrentcli decode <bencoded_string>`
 
 **Example:**
 
@@ -25,9 +27,11 @@ $ torrentcli decode d3:cow3:moo4:spam4:eggse
 { "cow": "moo", "spam": "eggs" }
 ```
 
-### `torrentcli info <torrent_file>`
+### info
 
 Extracts information from a torrent file.
+
+**Interface**: `torrentcli info <torrent_file>`
 
 **Example:**
 
@@ -38,9 +42,11 @@ Length: 4068474880
 Info Hash: 6d4795dee70aeb88e03e5336ca7c9fcf0a1e206d
 ```
 
-### `torrentcli peers <torrent_file>`
+### peers
 
 Lists the available peers for a torrent.
+
+**Interface**: `torrentcli peers <torrent_file>`
 
 **Example:**
 
@@ -51,9 +57,11 @@ $ torrentcli peers ubuntu-iso.torrent
 62.153.208.98:3652
 ```
 
-### `torrentcli handshake <torrent_file> <peer>`
+### handshake
 
 Performs a handshake with a peer.
+
+**Interface**: `torrentcli handshake <torrent_file> <peer>`
 
 Example:
 
@@ -62,9 +70,11 @@ $ torrentcli handshake ubuntu-iso.torrent 118.119.61.177:6882
 Handshake succcessful.
 ```
 
-### `torrentcli download_piece -o <download_location> <torrent_file> <peer> <piece_index>`
+### download_piece
 
 Download a piece of a file from a peer.
+
+**Interface**: `torrentcli download_piece -o <download_location> <torrent_file> <peer> <piece_index>`
 
 **Example:**
 
@@ -73,9 +83,11 @@ $ torrentcli download_piece -o /tmp/ubuntu-iso-piece-1 ubuntu-iso.torrent 118.11
 Piece 1 downloaded to /tmp/ubuntu-iso-piece-1.
 ```
 
-### `torrentcli download -o <download_location> <torrent_file>`
+### download
 
 Download a torrent.
+
+**Interface**: `torrentcli download -o <download_location> <torrent_file>`
 
 **Example:**
 
