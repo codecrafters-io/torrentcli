@@ -79,8 +79,8 @@ Download a piece of a file from a peer.
 **Example:**
 
 ```bash
-$ torrentcli download_piece -o /tmp/ubuntu-iso-piece-1 ubuntu-iso.torrent 118.119.61.117:6882 0
-Piece 0 downloaded to /tmp/ubuntu-iso-piece-1.
+$ torrentcli download_piece -o /tmp/ubuntu-iso-piece-0 ubuntu-iso.torrent 118.119.61.117:6882 0
+Piece 0 downloaded to /tmp/ubuntu-iso-piece-0.
 ```
 
 ### download
