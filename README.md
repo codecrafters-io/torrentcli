@@ -67,7 +67,7 @@ Example:
 
 ```bash
 $ torrentcli handshake ubuntu-iso.torrent 118.119.61.177:6882
-Handshake succcessful.
+Peer ID: xxx
 ```
 
 ### download_piece
