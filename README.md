@@ -40,6 +40,10 @@ $ torrentcli info ubuntu-iso.torrent
 Tracker URL: http://torrent.ubuntu.com:6969/announce
 Length: 4068474880
 Info Hash: 6d4795dee70aeb88e03e5336ca7c9fcf0a1e206d
+Piece Length: 262144
+Piece Hashes:
+ddf33172599fda84f0a209a3034f79f0b8aa5e22
+795a618a1ee5275e952843b01a56ae4e142752ef
 ```
 
 ### peers
